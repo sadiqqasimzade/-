@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.sidenav {
+    height: 100%; 
+    width: 0px; 
+    position: fixed; 
+    z-index: 999; 
+    top: 0; 
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.76); 
+    overflow-x: hidden; 
+    padding-top:5%; 
+    transition: 0.5s; 
+  }
+  
+
+  .sidenav a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: xx-large;
+    display: block;
+  }
+
+    #main {
+    transition: margin-left .5s;
+    padding-left: 1%;
+    padding-top: 2%;
+  }
+
+
+  .childimg{
+
+      height: 20vh;
+  }
+
+  .h40
+  {
+      height: 40vh;
+  }
+
+  
